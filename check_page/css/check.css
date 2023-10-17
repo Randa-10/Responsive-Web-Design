@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+
+}
+#header1 img{
+    width: 100px;
+    height: 100px;
+}
+#helpInfo a{
+text-decoration: none;
+}
+.paymentButton{
+    background-color: bisque;
+    border-color: white;
+    color: gray;
+}
+/* media query for header */
+@media only screen and (max-width: 700px) {
+    #title {
+        justify-content: center;
+         margin: auto;
+
+    }
+    #change{
+        display: none;
+
+    }
+
+  }

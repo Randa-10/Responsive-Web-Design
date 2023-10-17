@@ -1,0 +1,25 @@
+.box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.box:hover {
+    background-color: #dddddd42;
+    cursor: pointer;
+}
+main .box p {
+    color: #565959;
+    margin-top: -5px;
+    line-height: 1.2;
+}
+
+.some-links a {
+    text-decoration: none;
+    color: #007185;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.some-links a:hover {
+    color: red;
+    text-decoration: underline;
+}

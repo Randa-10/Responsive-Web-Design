@@ -1,0 +1,20 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ #backtoTop :hover{
+    background-color: #969faa;
+   }
+
+#footerblock1 li>a:link:hover{
+    text-decoration: underline !important;
+   }
+#adLinks a:link{
+font-size: 12px;
+} 
+#adLinks :hover{
+    text-decoration: underline !important;
+  }
+

@@ -1,0 +1,130 @@
+#sec1 .after {
+    text-decoration: none;
+    color: #217185;
+}
+
+#sec1 .after:hover {
+    text-decoration: underline;
+    color: #CA5A00;
+}
+
+#sec1 .now {
+    text-decoration: none;
+    color: #CA5A00;
+
+}
+
+.box {
+    border: .5px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.box:active {
+    box-shadow: 5px 5px 5px rgb(144, 218, 248);
+
+}
+
+#sec12 .btn {
+    background-color: #303333;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid none;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* display: inline; */
+}
+
+#sec12 .btn:hover {
+    background-color: #3a3c3c;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid none;
+}
+
+#sec13 .fir {
+    /* background-color: #CA5A00; */
+    border-bottom: 2px saddlebrown solid;
+    padding: 10px;
+
+
+}
+
+#sec13 .btn {
+    font-size: 16px;
+    border: none;
+    border-radius: 0px;
+}
+
+#sec13 .btn:active {
+    border: none;
+    border-bottom: 2px saddlebrown solid;
+}
+
+#sec13 a:hover {
+    color: saddlebrown;
+    text-decoration: underline;
+}
+
+#sec13 .ne {
+    color: #217185;
+}
+
+#sec14 select {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #e7eaea;
+    border: none;
+}
+
+#sec14 select:active {
+    box-shadow: 5px 5px 5px rgb(97, 198, 238);
+
+}
+
+#sec14 a {
+    text-decoration: none;
+    color: #217185;
+}
+
+#sec14 a:hover {
+    text-decoration: underline;
+    color: saddlebrown;
+}
+
+#sec14 .box-prim {
+    border: #b7b6b6 1px solid;
+    border-radius: 5px;
+}
+
+#sec14 .nam {
+    color: #217185;
+}
+
+#sec14 .ord {
+    background-color: #E7EAEA;
+}
+
+#sec15 .bt {
+    background-color: #f9fcfc;
+    border: #b7b6b6 1px solid;
+    /* border-radius: 5px; */
+}
+
+
+#sec15 button {
+    /* background-color:#f9fcfc ; */
+    border: #b7b6b6 1px solid;
+    border-radius: 10px;
+}
+
+#sec2 .textf {
+    color: #217185;
+    cursor: pointer;
+}
+
+#sec2 .textf:hover {
+    color: #CA5A00;
+}

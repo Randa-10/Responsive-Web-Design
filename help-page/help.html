@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Amazon - Help</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="../Assets/images/favicon.ico"
+        />
+        <link rel="stylesheet" href="../Assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../Assets/css/navbar.css" />
+        <link rel="stylesheet" href="./css/help.css" />
+        <link rel="stylesheet" href="../footer/footerStyle.css" />
+    </head>
+
+    <body>
+        <!--///////////////////////////////////// <nav>////////////////////////////////////////// -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"
+                        ><img
+                            src="../Assets/images/nav-images/amzon-logo.png"
+                            width="120px"
+                            height="40px"
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav align-items-lg-center">
+                            <li class="nav-item location-item">
+                                <div class="d-flex">
+                                    <div class="mt-2 me-1">
+                                        <ion-icon
+                                            class="location"
+                                            name="location-outline"
+                                        ></ion-icon>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <p class="deliver">Deliver to</p>
+                                        <a
+                                            class="nav-link active address"
+                                            aria-current="page"
+                                            href="#"
+                                            >Egypt</a
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                            <ul class="navbar-nav search-bar">
+                                <li class="nav-item">
+                                    <form role="search">
+                                        <input
+                                            class="form-control search-input align-items-center"
+                                            type="search"
+                                            placeholder="          Search"
+                                            aria-label="Search"
+                                        />
+                                    </form>
+                                </li>
+                                <li
+                                    class="nav-item dropdown all-category-search"
+                                >
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        All
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >All Category</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Amazon Devices</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Amazon Fashion</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Amazon Warehouse</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Baby</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Books</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Sports</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Software</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <ion-icon
+                                        class="serch-icon d-block"
+                                        name="search-outline"
+                                    ></ion-icon>
+                                </li>
+                            </ul>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle langugae-location"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    <img
+                                        src="../Assets/images/nav-images/egypt-flag.svg"
+                                        width="25px"
+                                    />
+                                    EN
+                                </a>
+                                <ul class="dropdown-menu p-2">
+                                    <li>
+                                        <input
+                                            type="radio"
+                                            id="arabic"
+                                            name="languge"
+                                        />
+                                        <label for="arabic">العربية- AR</label>
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <input
+                                            type="radio"
+                                            id="english"
+                                            name="languge"
+                                        />
+                                        <label for="english"
+                                            >English - EN</label
+                                        >
+                                    </li>
+                                    <p>
+                                        <a href="#">Learn more</a>
+                                    </p>
+                                    <hr />
+                                    <p>
+                                        <img
+                                            src="../Assets/images/nav-images/egypt-flag.svg"
+                                            width="25px"
+                                        />
+                                        You are shopping on Amazon.eg
+                                    </p>
+                                    <p>
+                                        <a href="#">Change country/ region.</a>
+                                    </p>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown nav-account">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    <span class="account-lists">
+                                        <span class="hello"
+                                            >Hello, sign in<br /></span
+                                        >Account & Lists
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item drop-account shadow"
+                                            href="../login-page/login.html"
+                                            >Sign in</a
+                                        >
+                                        <p class="register">
+                                            New customer?
+                                            <a
+                                                href="../register-page/register.html"
+                                                >Start here.</a
+                                            >
+                                        </p>
+                                        <hr />
+                                    </li>
+                                    <li>
+                                        <p
+                                            class="border-3 fw-bold d-inline-block"
+                                        >
+                                            Your Lists
+                                        </p>
+                                        <p class="fw-bold mb-0">Your Account</p>
+                                        <a
+                                            href="../account-page/account.html"
+                                            class="text-decoration-none text-dark"
+                                        >
+                                            Your Account
+                                        </a>
+                                        <br />
+                                        <a
+                                            href="../orders/order.html"
+                                            class="text-decoration-none text-dark"
+                                        >
+                                            Your Orders
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link order"
+                                    href="../orders/order.html"
+                                    >Orders</a
+                                >
+                            </li>
+                            <li class="nav-item cart-container d-flex">
+                                <a href="../cart-page/cart.html">
+                                    <span>4</span>
+                                    <img
+                                        class="mb-2"
+                                        src="../Assets/images/nav-images/cart.png"
+                                    />
+                                    <a
+                                        href="../cart-page/cart.html"
+                                        class="nav-link cart"
+                                        >Cart</a
+                                    >
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="search-bar-meduim d-flex d-lg-none">
+                <div class="all-category-search">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >
+                        All
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">All Category</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Amazon Devices</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Amazon Fashion</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"
+                                >Amazon Warehouse</a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Baby</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Books</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Sports</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Software</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-grow-1 h-100">
+                    <form role="search">
+                        <input
+                            class="form-control seearch-input"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                    </form>
+                </div>
+                <div class="h-100">
+                    <ion-icon
+                        class="serch-icon"
+                        name="search-outline"
+                    ></ion-icon>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="list-unstyled d-flex flex-row">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Today's Deals</a></li>
+                    <li>
+                        <a href="../category-page/category.html"
+                            >Mobile Phones</a
+                        >
+                    </li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Application</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Video Games</a></li>
+                    <li><a href="#">Toy & Games</a></li>
+                    <li><a href="#">Grocery</a></li>
+                    <li><a href="../help-page/help.html">Help</a></li>
+                </ul>
+            </div>
+        </header>
+        <!--/////////////////////////////////////<end nav>////////////////////////////////////////// -->
+
+        <!-- <sec 1 help> -->
+        <section id="sec1" class="pb-5">
+            <div class="p-1 d-flex sec11">
+                <a href="help.html" class="p-3"> Customer Service </a>
+                <div class="div"></div>
+                <a href="../index.html" class="p-3 text-decoration-underline">
+                    Home
+                </a>
+                <a href="help.html" class="p-3">
+                    Digital Services and Device Support
+                </a>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12 info">
+                        <p class="m-2">
+                            <i class="fa-solid fa-circle-info"></i> <br />
+                            Our phone lines are open from 8:00 am to 12 midnight
+                            Egypt time. You can call us directly at 08000262966
+                            to talk to our team. You can also track your orders
+                            and deliveries, return a product, and manage your
+                            Prime account by clicking on the help resources
+                            below.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 ques">
+                        <h1 style="font-size: 24px" class="fw-bold mb-3">
+                            Welcome to your Amazon Customer Service Center
+                        </h1>
+                        <h2 style="font-size: 18px">
+                            What would you like help with today? You can quickly
+                            take care of most things here, or connect with us
+                            when needed.
+                        </h2>
+                    </div>
+                </div>
+                <!-- <start of grid seystem section> -->
+                <section id="sec2 ">
+                    <div class="row mt-4">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img src="./images/11 fshub_order_v2.png" />
+                                A delivery, order or return
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img src="./images/22fshub_account_v2.png" />
+                                Account Settings and Privacy
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img src="./images/33fshub_prime_v2.png" />
+                                Prime Related,Prime Related
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img src="./images/44fshub_device_v2.png" />
+                                Kindle,Other Amazon Devices
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img
+                                    src="./images/45fshub_primevideo_firetv.png"
+                                />
+                                Prime Video, Amazon Music
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img
+                                    src="./images/46fshub_games_software.png"
+                                />
+                                Prime Gaming,Prime Gaming
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img
+                                    src="./images/74souq.png "
+                                    style="width: 20%"
+                                />
+                                Souq order related
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p class="px-1 first">
+                                <img
+                                    src="./images/77fshub_somethingelse_v3.png"
+                                />
+                                Pre-Order Questions
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- <end of grid seystem section> -->
+            </div>
+        </section>
+        <!-- <end of sec1 help> -->
+
+        <!-- <start of sec3 help> -->
+        <section id="sec3">
+            <div class="container pb-5">
+                <div class="form-outline pt-5 pb-5">
+                    <label
+                        class="form-label fw-bolder"
+                        for="datatable-search-input"
+                        >Search our help library</label
+                    >
+                    <input
+                        type="search"
+                        class="form-control"
+                        id="datatable-search-input"
+                        placeholder="
+            Type something like, 'Where's my stuff'"
+                    />
+                </div>
+                <h5 class="fw-bold pb-3">All help topics</h5>
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv">
+                                    Recommended Topics
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv2">
+                                    Where's my stuff
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv3">
+                                    Shipping and Delivery
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv4">
+                                    Returns and Refunds
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv5">
+                                    Ordering
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv6">
+                                    Managing Your Account
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv7">
+                                    Security & Privacyy
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv8">
+                                    Payment, Pricing and Promotions
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv9">
+                                    Devices & Digital Solutions
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" id="vvv10">
+                                    Other topics & Help sites
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <right> -->
+                    <div class="col-lg-9 col-md-7 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div1">
+                                    <h3 id="head">
+                                        Check the Status of Your Refund
+                                    </h3>
+                                    <p id="para">
+                                        You can check the status of your refund
+                                        in Your Account
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div2">
+                                    <h3 id="head2">
+                                        Check the Status of Your Refund
+                                    </h3>
+                                    <p id="para2">
+                                        You can check the status of your refund
+                                        in Your Account
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div3">
+                                    <h3 id="head3">Track your package</h3>
+                                    <p id="para3">
+                                        You can find tracking information in
+                                        your order details. If an order includes
+                                        multiple items, each may have separate
+                                        delivery dates and tracking
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div4">
+                                    <h3 id="head4">Cash on Delivery</h3>
+                                    <p id="para4">
+                                        You can find tracking information in
+                                        your order details. If an order includes
+                                        multiple items, each may have separate
+                                        delivery dates and tracking
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div5">
+                                    <h3 id="head5">Return Items You Ordered</h3>
+                                    <p id="para5">
+                                        You can return many items sold on
+                                        Amazon. When you return an item, you may
+                                        see different return options depending
+                                        on the seller, item, or reason for
+                                        return.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div6">
+                                    <h3 id="head6">
+                                        About Free Shipping by Amazon
+                                    </h3>
+                                    <p id="para6">
+                                        You can return many items sold on
+                                        Amazon. When you return an item, you may
+                                        see different return options depending
+                                        on the seller, item, or reason for
+                                        return.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div7">
+                                    <h3 id="head7">Replace an item</h3>
+                                    <p id="para7">
+                                        If you received a damaged, defective, or
+                                        incorrect item sold by Amazon, you can
+                                        request a replacement for a small number
+                                        of eligible items through Your
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                                <div class="px-1 first2" id="div8">
+                                    <h3 id="head8">Print an Invoice</h3>
+                                    <p id="para8">
+                                        If you received a damaged, defective, or
+                                        incorrect item sold by Amazon, you can
+                                        request a replacement for a small number
+                                        of eligible items through Your
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="px-1 mt-4" id="div9">
+                                    <button id="last">
+                                        More in Where's my Stuff
+                                    </button>
+                                    <button id="last2">
+                                        More information on Shipping and
+                                        Delivery
+                                    </button>
+                                    <button id="last3">
+                                        More in Returns and Refunds
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//////////////////////////////////////////// <footer>//////////////////////////////// -->
+        <footer>
+            <!-- by eng.hamza mohamed -->
+            <div class="container-fluid p-0">
+                <!-- first section back to top button -->
+                <a
+                    class="bg-secondary d-block text-decoration-none text-center"
+                    id="backtoTop"
+                    href=""
+                >
+                    <div>
+                        <span class="p-t-5 text-white">Back to top</span>
+                    </div>
+                </a>
+                <!-- <div class="m-auto w-100"> -->
+                <div
+                    id="footerblock1"
+                    class="text-center text-lg-start row m-0 w-100 p-4"
+                    style="background-color: #232f3e"
+                >
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Get to Know Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >about amazon</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >careers</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >amazon science</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Shop with Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Account</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Orders</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Addresses</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Lists</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Make Money with Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Protect and build your brand</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Advertise Your Products</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Sell on Amazon</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Fulfillment by Amazon</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Let Us Help You</h5>
+                        <div class="">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Help</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Shipping & Delivery</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Returns & Replacements</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Amazon App Download</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <!-- div for creating border bottom -->
+                <div class="bg-light border-bottom-1 border border-dark"></div>
+
+                <!-- section of language and country -->
+                <div
+                    id="langSector"
+                    class="d-flex justify-content-center p-0 m-0 w-100"
+                    style="height: 120px; background-color: #232f3e"
+                >
+                    <div class=" ">
+                        <a class="m-4" href="#">
+                            <div id="footerLogo">
+                                <img
+                                    class="rounded-circle d-none d-lg-flex"
+                                    width="100"
+                                    height="45"
+                                    src="../footer/amazon-dark.svg"
+                                    alt="logo"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <!-- language button -->
+                    <div class="m-4 pt-3 border-secondary">
+                        <span
+                            ><i
+                                class="fa-solid fa-globe"
+                                style="color: aliceblue; width: 15%"
+                            ></i
+                        ></span>
+                        <select
+                            class="text-black border border-dark"
+                            style="background-color: #232f3e; width: 80%"
+                            name="languages"
+                            id="languages"
+                        >
+                            <option value="English" selected>English</option>
+                            <option value="Arabic">Arabic</option>
+                        </select>
+                    </div>
+
+                    <!-- country button -->
+                    <div class="m-4">
+                        <button
+                            class="btn text-black"
+                            style="background-color: #232f3e"
+                        >
+                            <img src="../footer/egypt-flag.svg" alt="*" />Egypt
+                        </button>
+                    </div>
+                </div>
+                <!-- this section is visilble only in large screens -->
+                <div
+                    class="bg-dark container-fluid border-bottom border-black"
+                    id="adLinks"
+                >
+                    <!-- first row of 5 main links -->
+                    <div class="d-none d-lg-flex justify-content-around mb-3">
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Amazon Advertising</span>
+                                <span class="text-secondary d-block"
+                                    >Find, attract, and</span
+                                >
+                                <span class="text-secondary"
+                                    >engage customers</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Sell on Amazon.ae</span>
+                                <span class="text-secondary">
+                                    Sell globally, start with UAE</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Sell on Amazon.ae</span>
+                                <span class="text-secondary">
+                                    Sell globally, start with Saudi Arabia</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Amazon Web Services</span>
+                                <span class="text-secondary"
+                                    >Scalable Cloud</span
+                                >
+                                <span class="d-block text-secondary">
+                                    Computing Services</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block"> Goodreads</span>
+                                <span class="text-secondary d-block"
+                                    >Book reviews</span
+                                >
+                                <span class="text-secondary">
+                                    & recommendations</span
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end  of first row of 5 main links -->
+
+                    <!--  start second row of 5 main links d-xsm-none -->
+                    <div
+                        class="d-none d-lg-flex justify-content-around mt-1 mb-3"
+                    >
+                        <div class=" ">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block"> Audible</span>
+                                <span class="text-secondary d-block"
+                                    >Download</span
+                                >
+                                <span class="text-secondary"> Audio Books</span>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block"> IMDb</span>
+                                <span class="text-secondary d-block"
+                                    >Movies, TV</span
+                                >
+                                <span class="text-secondary">
+                                    & Celebrities</span
+                                >
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Alexa</span>
+                                <span class="text-secondary d-block"
+                                    >Actionable Analytics</span
+                                >
+                                <span class="text-secondary"> for the Web</span>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Shopbop</span>
+                                <span class="text-secondary d-block"
+                                    >Designer</span
+                                >
+                                <span class="text-secondary"
+                                    >Fashion Brands</span
+                                >
+                            </a>
+                        </div>
+                        <div class="m-4"></div>
+                    </div>
+                </div>
+                <!-- bottom of the page  -->
+                <div class="bg-dark p-1">
+                    <ul
+                        class="list-unstyled d-flex justify-content-center text-decoration-none"
+                    >
+                        <li>
+                            <a class="text-white text-decoration-none" href="#"
+                                >Conditions of Use & Sale</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text-white p-3 text-decoration-none"
+                                href="#"
+                                >Privacy Notice</a
+                            >
+                        </li>
+                        <li>
+                            <a class="text-white text-decoration-none" href="#"
+                                >Interest-Based Ads</a
+                            >
+                        </li>
+                    </ul>
+                    <span class="text-center text-white d-block pb-2"
+                        >© 1996-2023, Amazon.com, Inc. or its affiliates.</span
+                    >
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://kit.fontawesome.com/154d9ade40.js"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+        <script src="../Assets/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/help.js"></script>
+    </body>
+</html>

@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="../Assets/images/favicon.ico">
+        <link rel="stylesheet" href="./css/check.css" />
+        <link rel="stylesheet" href="../Assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../Assets/css/navbar.css">
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="../footer/footerStyle.css" />
+        <title>Amazon - Check Out</title>
+    </head>
+
+    <body>
+        <!--///////////////////////////////////// <nav>////////////////////////////////////////// -->
+            <header>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"
+                            ><img
+                                src="../Assets/images/nav-images/amzon-logo.png"
+                                width="120px"
+                                height="40px"
+                        /></a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse"
+                            id="navbarNavDropdown"
+                        >
+                            <ul class="navbar-nav align-items-lg-center">
+                                <li class="nav-item location-item">
+                                    <div class="d-flex">
+                                        <div class="mt-2 me-1">
+                                            <ion-icon
+                                                class="location"
+                                                name="location-outline"
+                                            ></ion-icon>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <p class="deliver">Deliver to</p>
+                                            <a
+                                                class="nav-link active address"
+                                                aria-current="page"
+                                                href="#"
+                                                >Egypt</a
+                                            >
+                                        </div>
+                                    </div>
+                                </li>
+                                <ul class="navbar-nav search-bar">
+                                    <li class="nav-item">
+                                        <form role="search">
+                                            <input
+                                                class="form-control search-input align-items-center"
+                                                type="search"
+                                                placeholder="          Search"
+                                                aria-label="Search"
+                                            />
+                                        </form>
+                                    </li>
+                                    <li
+                                        class="nav-item dropdown all-category-search"
+                                    >
+                                        <a
+                                            class="nav-link dropdown-toggle"
+                                            href="#"
+                                            role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                            All
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >All Category</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >Amazon Devices</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >Amazon Fashion</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >Amazon Warehouse</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >Baby</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >Books</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >Sports</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    >Software</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <ion-icon
+                                            class="serch-icon d-block"
+                                            name="search-outline"
+                                        ></ion-icon>
+                                    </li>
+                                </ul>
+                                <li class="nav-item dropdown">
+                                    <a
+                                        class="nav-link dropdown-toggle langugae-location"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        <img
+                                        src="../Assets/images/nav-images/egypt-flag.svg"
+                                        width="25px"
+                                        />
+                                        EN
+                                    </a>
+                                    <ul class="dropdown-menu p-2">
+                                        <li>
+                                            <input
+                                                type="radio"
+                                                id="arabic"
+                                                name="languge"
+                                            />
+                                            <label for="arabic">العربية- AR</label>
+                                        </li>
+                                        <hr />
+                                        <li>
+                                            <input
+                                                type="radio"
+                                                id="english"
+                                                name="languge"
+                                            />
+                                            <label for="english"
+                                                >English - EN</label
+                                            >
+                                        </li>
+                                        <p>
+                                            <a href="#">Learn more</a>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <img
+                                                src="../Assets/images/nav-images/egypt-flag.svg"
+                                                width="25px"
+                                            />
+                                            You are shopping on Amazon.eg
+                                        </p>
+                                        <p>
+                                            <a href="#">Change country/ region.</a>
+                                        </p>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown nav-account">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        <span class="account-lists">
+                                            <span class="hello"
+                                                >Hello, sign in<br /></span
+                                            >Account & Lists
+                                        </span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a
+                                                class="dropdown-item drop-account shadow"
+                                                href="../login-page/login.html"
+                                                >Sign in</a
+                                            >
+                                            <p class="register">
+                                                New customer?
+                                                <a
+                                                    href="../register-page/register.html"
+                                                    >Start here.</a
+                                                >
+                                            </p>
+                                            <hr />
+                                        </li>
+                                        <li>
+                                            <p
+                                                class="border-3 fw-bold d-inline-block"
+                                            >
+                                                Your Lists
+                                            </p>
+                                            <p class="fw-bold mb-0">Your Account</p>
+                                            <a
+                                                href="../account-page/account.html"
+                                                class="text-decoration-none text-dark"
+                                            >
+                                                Your Account
+                                            </a>
+                                            <br />
+                                            <a
+                                                href="../orders/order.html"
+                                                class="text-decoration-none text-dark"
+                                            >
+                                                Your Orders
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link order"
+                                        href="../orders/order.html"
+                                        >Orders</a
+                                    >
+                                </li>
+                                <li class="nav-item cart-container d-flex">
+                                    <a href="../cart-page/cart.html">
+                                        <span>4</span>
+                                        <img
+                                            class="mb-2"
+                                            src="../Assets/images/nav-images/cart.png"
+                                        />
+                                        <a
+                                            href="../cart-page/cart.html"
+                                            class="nav-link cart"
+                                            >Cart</a
+                                        >
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="search-bar-meduim d-flex d-lg-none">
+                    <div class="all-category-search">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            All
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">All Category</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Amazon Devices</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Amazon Fashion</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    >Amazon Warehouse</a
+                                >
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Baby</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Books</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Sports</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Software</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-grow-1 h-100">
+                        <form role="search">
+                            <input
+                                class="form-control seearch-input"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                            />
+                        </form>
+                    </div>
+                    <div class="h-100">
+                        <ion-icon
+                            class="serch-icon"
+                            name="search-outline"
+                        ></ion-icon>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul class="list-unstyled d-flex flex-row">
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Today's Deals</a></li>
+                        <li>
+                            <a href="../category-page/category.html"
+                                >Mobile Phones</a
+                            >
+                        </li>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Application</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Video Games</a></li>
+                        <li><a href="#">Toy & Games</a></li>
+                        <li><a href="#">Grocery</a></li>
+                        <li><a href="../help-page/help.html">Help</a></li>
+                    </ul>
+                </div>
+            </header>
+        <!--/////////////////////////////////////<end nav>////////////////////////////////////////// -->
+        <!-- check out page  -->
+        <div class="container-fluid bg-white">
+            <!-- first header of the content  -->
+            <div class="container-fluid bg-light d-flex" id="header1">
+                <div class="d-none d-lg-block d-xl-block ms-5">
+                    <a href="" class="text-decoration-none"
+                        ><img
+                            class="img-fluid"
+                            src="./pngimg.com - amazon_PNG21.png"
+                    /></a>
+                </div>
+                <div class="bg-light mx-auto pt-4" id="title">
+                    <h2 class="text-center">
+                        Checkout (<a
+                            href=""
+                            class="text-decoration-none text-success"
+                            >1 item</a
+                        >)
+                    </h2>
+                </div>
+            </div>
+            <!-- main container  -->
+            <div
+                class="row"
+                style="
+                    background-color: #ffffff;
+                    padding-left: 8%;
+                    padding-right: 8%;
+                "
+            >
+                <div class="col-lg-9 p-1">
+                    <!-- shipping address section -->
+                    <div class="border-bottom bg-white d-flex m-1">
+                        <div>
+                            <a
+                                class="text-decoration-none fw-bold text-dark"
+                                href=""
+                                ><span class="px-1">1</span> Shipping address</a
+                            >
+                        </div>
+                        <div class="mx-auto">
+                            <ul class="list-unstyled">
+                                <li>hamza mohamed farag</li>
+                                <li>nasser Elzeraie street</li>
+                                <li>20</li>
+                                <li>Sohag, Markaz Akhmim, Markaz Akhmim</li>
+                                <li>
+                                    <a class="text-decoration-none" href="#"
+                                        >Add delivery instructions</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pe-3" id="change">
+                            <a href="#" class="text-decoration-none">Change</a>
+                        </div>
+                    </div>
+                    <!-- payment section -->
+                    <div>
+                        <h4 class="text-danger">2 Choose a payment method</h4>
+                    </div>
+                    <div class="p-1 pb-0 d-block border rounded">
+                        <h5 class="border-bottom p-1 fw-bold">
+                            Your available balance
+                        </h5>
+                        <div class="d-flex p-3">
+                            <a class="ps-2 pt-4" href="#"
+                                ><i
+                                    class="fa-solid fa-plus"
+                                    style="color: #c9cfd9"
+                                ></i
+                            ></a>
+                            <div class="mx-3">
+                                <p class="small p-0 m-0 fw-bold">
+                                    Enter a gift card or promotional code
+                                </p>
+                                <div>
+                                    <input
+                                        type="text"
+                                        class="d-block w-75"
+                                        value=""
+                                        placeholder="Enter code"
+                                    />
+                                </div>
+                            </div>
+                            <div class="">
+                                <input
+                                    type="button"
+                                    class="d-block w-100 bg-white mt-3 border border-white text-muted"
+                                    value="Apply"
+                                    placeholder=""
+                                    onclick=""
+                                />
+                            </div>
+                        </div>
+                        <h5 class="border-bottom fw-bold">
+                            Your credit and debit cards
+                        </h5>
+
+                        <div class="d-flex p-3">
+                            <a class="p-auto" href="#"
+                                ><i
+                                    class="fa-solid fa-plus"
+                                    style="color: #c9cfd9"
+                                ></i
+                            ></a>
+                            <div class="mx-3">
+                                <i class="fa-brands fa-cc-amazon-pay"></i>
+                                <a href="#" class="text-decoration-none"
+                                    >Add a credit or debit card><span
+                                        class="text-muted small px-2"
+                                        >amazon.eg accepts all major credit
+                                        cards</span
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                        <h5 class="fw-bold">Other payment options</h5>
+                        <div class="border-top d-flex p-3">
+                            <div class="mx-2">
+                                <p class="fw-bold">
+                                    <input class="mx-2" type="radio" />Cash on
+                                    Delivery
+                                </p>
+                                <div class="mx-4">
+                                    <span
+                                        >Pay by cash on delivery. Non-refundable
+                                        COD fees of
+                                        <span class="fw-bold">EGP 12</span> may
+                                        apply.
+                                        <a class="text-decoration-none" href="#"
+                                            >Learn more</a
+                                        >
+                                        .</span
+                                    >
+                                    <p>
+                                        Pay online for contactless deliveries.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top bg-light p-3">
+                            <input
+                                type="button"
+                                class="d-block w-25 border rounded paymentButton"
+                                value="Use this payment method"
+                                placeholder=""
+                                onclick=""
+                            />
+                        </div>
+                    </div>
+                    <div class="border-bottom border-top mt-3">
+                        <a class="text-decoration-none text-muted fs-3" href="#"
+                            ><span class="px-1">3</span> Offers</a
+                        >
+                    </div>
+                    <div class="border-bottom">
+                        <a class="text-decoration-none text-muted fs-3" href="#"
+                            ><span class="px-1">4</span> Items and Shipping
+                        </a>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="bg-white col-lg-3 p-0 mt-2 sticky-lg-top">
+                    <div class="border rounded">
+                        <div class="d-block p-2">
+                            <div class="border-bottom">
+                                <input
+                                    type="button"
+                                    class="d-block w-100 border rounded paymentButton"
+                                    value="Use this payment method"
+                                    placeholder=""
+                                    onclick=""
+                                />
+                                <p class="text-muted small text-center">
+                                    <span class="mb-0"
+                                        >Choose a payment method to
+                                        continue</span
+                                    >
+                                    <span
+                                        >checking out. You'll still have a
+                                        chance to</span
+                                    >
+                                    <span
+                                        >review and edit your order before it's
+                                        final.</span
+                                    >
+                                </p>
+                            </div>
+                            <div>
+                                <h4>Order Summary</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span>Items:</span
+                                        ><span style="float: right"
+                                            >EGP 65.99</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span>Shipping & handling:</span
+                                        ><span style="float: right">---</span>
+                                    </li>
+                                    <li>
+                                        <span>Total:</span
+                                        ><span style="float: right">---</span>
+                                    </li>
+                                    <li>
+                                        <span>Promotion applied:</span
+                                        ><span style="float: right">---</span>
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <span class="text-danger fw-bold"
+                                            >Order total:</span
+                                        ><span style="float: right">---</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="border-top bg-light m-0">
+                            <div class="p-3">
+                                <a href="#" class="small text-decoration-none"
+                                    >How are shipping costs calculated?</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second divison to help section -->
+                <div class="row">
+                    <div
+                        class="pt-3 pb-2 text-muted small col-lg-9"
+                        id="helpInfo"
+                    >
+                        <p>
+                            *Why has sales tax been applied?
+                            <a href="#">See tax and seller information</a>
+                        </p>
+                        <p>
+                            Need help? Check our <a href="#">Help pages</a> or
+                            <a href="#">contact us</a>
+                        </p>
+                        <p>
+                            For an item sold by amazon.eg: When you click the
+                            ""Place your order"" button, we'll send you an email
+                            message acknowledging receipt of your order. Your
+                            contract to purchase an item will not be complete
+                            until we send you an email notifying you that the
+                            item has been shipped.
+                        </p>
+                        <p>
+                            You may return new, unopened merchandise in original
+                            condition within 15 days of delivery. Exceptions and
+                            restrictions apply. See amazon.eg's
+                            <a href="#">Returns Policy</a>.
+                        </p>
+                        <p>
+                            Need to add more items to your order? Continue
+                            shopping on the <a href="#">amazon.eg homepage</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <!-- by eng.hamza mohamed -->
+            <div class="container-fluid p-0">
+                <!-- first section back to top button -->
+                <a
+                    class="bg-secondary d-block text-decoration-none text-center"
+                    id="backtoTop"
+                    href=""
+                >
+                    <div>
+                        <span class="p-t-5 text-white">Back to top</span>
+                    </div>
+                </a>
+                <!-- <div class="m-auto w-100"> -->
+                <div
+                    id="footerblock1"
+                    class="text-center text-lg-start row m-0 w-100 p-4"
+                    style="background-color: #232f3e"
+                >
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Get to Know Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >about amazon</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >careers</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >amazon science</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Shop with Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Account</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Orders</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Addresses</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Your Lists</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Make Money with Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Protect and build your brand</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Advertise Your Products</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Sell on Amazon</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-white text-decoration-none"
+                                    href="#"
+                                    >Fulfillment by Amazon</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white">Let Us Help You</h5>
+                        <div class="">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Help</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Shipping & Delivery</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Returns & Replacements</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-white text-decoration-none"
+                                        href="#"
+                                        >Amazon App Download</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <!-- div for creating border bottom -->
+                <div class="bg-light border-bottom-1 border border-dark"></div>
+
+                <!-- section of language and country -->
+                <div
+                    id="langSector"
+                    class="d-flex justify-content-center p-0 m-0 w-100"
+                    style="height: 120px; background-color: #232f3e"
+                >
+                    <div class=" ">
+                        <a class="m-4" href="#">
+                            <div id="footerLogo">
+                                <img
+                                    class="rounded-circle d-none d-lg-flex"
+                                    width="100"
+                                    height="45"
+                                    src="../footer/amazon-dark.svg"
+                                    alt="logo"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <!-- language button -->
+                    <div class="m-4 pt-3 border-secondary">
+                        <span
+                            ><i
+                                class="fa-solid fa-globe"
+                                style="color: aliceblue; width: 15%"
+                            ></i
+                        ></span>
+                        <select
+                            class="text-black border border-dark"
+                            style="background-color: #232f3e; width: 80%"
+                            name="languages"
+                            id="languages"
+                        >
+                            <option value="English" selected>English</option>
+                            <option value="Arabic">Arabic</option>
+                        </select>
+                    </div>
+
+                    <!-- country button -->
+                    <div class="m-4">
+                        <button
+                            class="btn text-black"
+                            style="background-color: #232f3e"
+                        >
+                            <img src="../footer/egypt-flag.svg" alt="*" />Egypt
+                        </button>
+                    </div>
+                </div>
+                <!-- this section is visilble only in large screens -->
+                <div
+                    class="bg-dark container-fluid border-bottom border-black"
+                    id="adLinks"
+                >
+                    <!-- first row of 5 main links -->
+                    <div class="d-none d-lg-flex justify-content-around mb-3">
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Amazon Advertising</span>
+                                <span class="text-secondary d-block"
+                                    >Find, attract, and</span
+                                >
+                                <span class="text-secondary"
+                                    >engage customers</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Sell on Amazon.ae</span>
+                                <span class="text-secondary">
+                                    Sell globally, start with UAE</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Sell on Amazon.ae</span>
+                                <span class="text-secondary">
+                                    Sell globally, start with Saudi Arabia</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Amazon Web Services</span>
+                                <span class="text-secondary"
+                                    >Scalable Cloud</span
+                                >
+                                <span class="d-block text-secondary">
+                                    Computing Services</span
+                                >
+                            </a>
+                        </div>
+                        <div class="mx-5 mt-3">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block"> Goodreads</span>
+                                <span class="text-secondary d-block"
+                                    >Book reviews</span
+                                >
+                                <span class="text-secondary">
+                                    & recommendations</span
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end  of first row of 5 main links -->
+
+                    <!--  start second row of 5 main links d-xsm-none -->
+                    <div
+                        class="d-none d-lg-flex justify-content-around mt-1 mb-3"
+                    >
+                        <div class=" ">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block"> Audible</span>
+                                <span class="text-secondary d-block"
+                                    >Download</span
+                                >
+                                <span class="text-secondary"> Audio Books</span>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block"> IMDb</span>
+                                <span class="text-secondary d-block"
+                                    >Movies, TV</span
+                                >
+                                <span class="text-secondary">
+                                    & Celebrities</span
+                                >
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Alexa</span>
+                                <span class="text-secondary d-block"
+                                    >Actionable Analytics</span
+                                >
+                                <span class="text-secondary"> for the Web</span>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="text-decoration-none text-white">
+                                <span class="d-block">Shopbop</span>
+                                <span class="text-secondary d-block"
+                                    >Designer</span
+                                >
+                                <span class="text-secondary"
+                                    >Fashion Brands</span
+                                >
+                            </a>
+                        </div>
+                        <div class="m-4"></div>
+                    </div>
+                </div>
+                <!-- bottom of the page  -->
+                <div class="bg-dark p-1">
+                    <ul
+                        class="list-unstyled d-flex justify-content-center text-decoration-none"
+                    >
+                        <li>
+                            <a class="text-white text-decoration-none" href="#"
+                                >Conditions of Use & Sale</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text-white p-3 text-decoration-none"
+                                href="#"
+                                >Privacy Notice</a
+                            >
+                        </li>
+                        <li>
+                            <a class="text-white text-decoration-none" href="#"
+                                >Interest-Based Ads</a
+                            >
+                        </li>
+                    </ul>
+                    <span class="text-center text-white d-block pb-2"
+                        >© 1996-2023, Amazon.com, Inc. or its affiliates.</span
+                    >
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://kit.fontawesome.com/154d9ade40.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../Assets/js/bootstrap.bundle.min.js"></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
